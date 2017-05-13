@@ -1,4 +1,4 @@
-<ion-view view-title="{{ 'mm.login.connecttomoodle' | translate }}">
+<ion-view view-title="Connect to Comezo">
   <ion-nav-buttons side="secondary">
       <button class="button button-icon ion-help-circled" ng-click="showHelp()" aria-label="{{ 'mm.core.help' | translate }}"></button>
   </ion-nav-buttons>
@@ -7,7 +7,7 @@
         <form>
           <ion-input class="item item-input item-stacked-label">
             <ion-label>{{ 'mm.login.siteaddress' | translate }}</ion-label>
-            <input type="url" placeholder="moodle.org" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
+            <input type="url" placeholder="Comezo Site" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
           </ion-input>
           <div class="item item-input padding">
               <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>

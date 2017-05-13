@@ -1,7 +1,7 @@
 {
     "app_id" : "com.moodle.moodlemobile",
     "appname": "Comezo",
-    "versioncode" : "2017.1",
+    "versioncode" : "2017",
     "versionname" : "3.2.1",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",

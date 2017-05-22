@@ -5,14 +5,14 @@
         id        = "com.comezo.moodlemobile"
         versionCode = "20171"
         version   = "3.2.1">
-    <name>Comezo</name>
+    <name>Nalanda Public School</name>
 
     <description>
-         Comezo app
+         Nalanda Public School official app
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+        
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">

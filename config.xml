@@ -2,9 +2,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.comezo.moodlemobile"
-        versionCode = "20171"
-        version   = "3.2.1">
+        id        = "com.nalanda.moodlemobile"
+        versionCode = "2017"
+        version   = "1.0">
     <name>Nalanda Public School</name>
 
     <description>

@@ -1,23 +1,28 @@
-<ion-view view-title="{{ 'mm.settings.synchronization' | translate }}" >
+<ion-view view-title="Attendance" >
     <ion-content mm-state-class>
         <ul class="list">
             <li class="item item-divider">
-                <p>{{ 'mm.settings.syncsettings' | translate }}</p>
+                <p>Class 11</p>
             </li>
-            <ion-toggle ng-model="syncOnlyOnWifi" ng-change="syncWifiChanged(syncOnlyOnWifi)">
-                <p class="item-heading">{{ 'mm.settings.enablesyncwifi' | translate }}</p>
-            </ion-toggle>
+            <li class="item item-text-wrap" ng-if="versionname">
+                <p class="item-heading">Class 11 A</p>
+                <a href="">Attendance</a>
+            </li>
+            <li class="item item-text-wrap" ng-if="versionname">
+                <p class="item-heading">Class 11 B</p>
+                <a href="">Attendance</a>
+            </li>
+
             <li class="item item-divider">
-                <p>{{ 'mm.settings.sites' | translate }}</p>
+                <p>Class 12</p>
             </li>
-            <li ng-repeat="site in sites" class="item item-button-right">
-                <p class="item-heading"><mm-format-text>{{site.sitename}}</mm-format-text></p>
-                <p>{{site.fullname}}</p>
-                <p>{{site.siteurl}}</p>
-                <button ng-if="!site.synchronizing" class="button button-icon" ng-click="synchronize(site.id)" title="{{site.sitename}}" aria-label="{{ 'mm.settings.synchronizenow' | translate }}">
-                    <i class="icon ion-android-sync positive"></i>
-                </button>
-                <ion-spinner ng-if="site.synchronizing"></ion-spinner>
+            <li class="item item-text-wrap" ng-if="versionname">
+                <p class="item-heading">Class 12 A</p>
+                <a href="">http://34.193.134.218/mod/attendance/manage.php?id=385</a>
+            </li>
+            <li class="item item-text-wrap" ng-if="versionname">
+                <p class="item-heading">Class 12 B</p>
+                <a href="">Attendance</a>
             </li>
         </ul>
     </ion-content>

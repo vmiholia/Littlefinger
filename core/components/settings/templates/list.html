@@ -1,4 +1,4 @@
-<ion-view view-title="{{ 'mm.settings.settings' | translate }}">
+<ion-view view-title="Attendance/Grades">
     <ion-nav-buttons side="secondary">
         <!-- Add an empty context menu so the right view menu is shown in tablet (split view). -->
         <mm-context-menu></mm-context-menu>
@@ -6,24 +6,24 @@
     <mm-split-view component="mmCoreSettingsIndex">
         <ion-content mm-state-class>
             <ul class="list">
-                 <li>
+                 <!--<li>
                     <a class="item" mm-split-view-link="site.mm_settings-about" title="{{ 'mm.settings.about' | translate }}">
                         Grades
                     </a>
-                </li>
+                </li>-->
                 <li>
                     <a class="item" mm-split-view-link="site.mm_settings-general" title="{{ 'mm.settings.general' | translate }}">
-                        Class 1-5
+                        Attendance(1-5)
                     </a>
                 </li>
                 <li>
                     <a class="item" mm-split-view-link="site.mm_settings-spaceusage" title="{{ 'mm.settings.spaceusage' | translate }}">
-                        Class 6-10
+                        Attendance(6-10)
                     </a>
                 </li>
                 <li>
                     <a class="item" mm-split-view-link="site.mm_settings-synchronization" title="{{ 'mm.settings.synchronization' | translate }}">
-                        Class 11-12
+                        Attendance(11-12)
                     </a>
                 </li>
             </ul>

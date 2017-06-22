@@ -2,21 +2,21 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.nalanda.moodlemobile"
-        versionCode = "2017"
-        version   = "1.0">
-    <name>Nalanda Public School</name>
+        id        = "com.comezo.moodlemobile"
+        versionCode = "2018"
+        version   = "2.0">
+    <name>Comezo</name>
 
     <description>
-         Nalanda Public School official app
+         Comezo official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
+    <author href="http://comezo.com" email="help@comezo.com">
         
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.2.1</string>
+        <string>3.5</string>
     </gap:config-file>
 
     <gap:platform name="ios" />

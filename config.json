@@ -1,7 +1,7 @@
 {
     "app_id" : "com.littleflowers.moodlemobile",
     "appname": "Little Flowers",
-    "versioncode" : "2017",
+    "versioncode" : "2017.1",
     "versionname" : "3.2.2",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
